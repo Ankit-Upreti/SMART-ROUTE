@@ -1,0 +1,69 @@
+/* About Us Section */
+.about-us-section {
+    padding: 40px 20px;
+    background: #f4f4f4;
+}
+
+.about-us-section h2,
+.about-us-section h3 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-us-section p {
+    text-align: center;
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.team-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Gap between cards */
+}
+
+.team-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    width: 250px; /* Adjust width as needed */
+    cursor: pointer; /* Indicate that the card is interactive */
+}
+
+.team-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.team-card h4 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.team-card p {
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.member-description {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+    line-height: 1.6;
+    max-height: 0; /* Initially hidden */
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+.member-description.active {
+    max-height: 150px; /* Adjust as needed */
+}

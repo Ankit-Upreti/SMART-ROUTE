@@ -1,0 +1,18 @@
+/* Privacy Policy Section */
+.privacy-policy-section {
+    padding: 40px 20px;
+    background: #f4f4f4;
+    color: #333;
+}
+
+.privacy-policy-section h2,
+.privacy-policy-section h3 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.privacy-policy-section p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}

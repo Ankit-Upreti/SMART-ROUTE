@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Login to SMART ROUTE - Real-time traffic alerts for emergency vehicles.">
+    <meta name="keywords" content="login, traffic, emergency vehicles, alerts, real-time, safety">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Login - SMART ROUTE</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+    <!-- Header (Consistent with Main Page) -->
+    <header>
+        <div class="logo">
+            <img src="/logo.jpeg" alt="SMART ROUTE Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/index.html#features">Features</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="/index.html#contact">Contact</a></li>
+                <li><a href="login.html" class="auth-link active">Login</a></li>
+                <li><a href="register.html" class="auth-link">Register</a></li>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Login Form Section -->
+    <section id="login-section" class="form-section fade-element">
+        <h2>Login</h2>
+        <form id="login-form" aria-describedby="form-description">
+            <p id="form-description">Please enter your email and password to login.</p>
+            
+            <label for="login-email">Email:</label>
+            <input type="email" id="login-email" name="login-email" required aria-required="true" aria-invalid="false">
+            
+            <label for="login-password">Password:</label>
+            <input type="password" id="login-password" name="login-password" minlength="6" required aria-required="true" aria-invalid="false">
+    
+            <button type="submit">Login</button>
+            <p id="login-error" role="alert" style="color: red; display: none;"></p>
+            <p id="login-success" style="color: green; display: none;"></p>
+        </form>
+    </section>
+
+    <!-- Footer (Consistent with Main Page) -->
+    <footer>
+        <div class="footer-links">
+            <a href="/index.html">Home</a>
+            <a href="/index.html#features">Features</a>
+            <a href="about.html">About Us</a>
+            <a href="/index.html#contact">Contact</a>
+            <a href="login.html">Login</a>
+            <a href="register.html">Register</a>
+        </div>
+        <div class="contact-info">
+            <p>Email: <a href="mailto:team@smartroute.com">team@smartroute.com</a></p>
+            <p>Phone: <a href="tel:+911234567890">+91-1234567890</a></p>
+            <p><a href="privacy.html">Privacy Policy</a></p>
+            <p><a href="terms.html">Terms and Conditions</a></p>
+        </div>
+        <div class="social-media">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="footer-bottom"></div>
+            <p>&copy; 2024 Trailblazers. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+.terms-conditions-section {
+    padding: 40px 20px;
+    background: #f4f4f4;
+    color: #333;
+}
+
+.terms-conditions-section h2,
+.terms-conditions-section h3 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.terms-conditions-section p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}

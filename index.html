@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="SMART ROUTE - Real-time traffic alerts for emergency vehicles.">
+    <meta name="keywords" content="traffic, emergency vehicles, alerts, real-time, safety">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <title>SMART ROUTE - Safer Roads with Real-Time Alerts</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for Social Media Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/kTcJlZxPOIr3M0W2vUSWb/9R8c3rV2KJ5Ew1iQHJXgbBkLjYHBSV3nKk/LaGDmu1NXYLMcOciAUEQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="logo.jpeg" alt="SMART ROUTE Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="other/about.html">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="other/login.html" class="auth-link">Login</a></li>
+                <li><a href="other/register.html" class="auth-link">Register</a></li>
+                <li><a href="other/privacy.html">Privacy Policy</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Animated Slider -->
+    <section class="slider">
+        <div class="slide active">
+            <img src="utility images/traffic.webp" alt="Emergency vehicle passing through a traffic-controlled road">
+            <div class="caption">Real-Time Traffic Alerts for Emergency Vehicles</div>
+        </div>
+        <div class="slide">
+            <img src="utility images/alert.png" alt="SMART ROUTE app alerting drivers of approaching emergency vehicles">
+            <div class="caption">Safety on Roads with SMART ROUTE</div>
+        </div>
+        <div class="slide">
+            <img src="utility images/map.jpg" alt="Map displaying real-time traffic control">
+            <div class="caption">Optimizing Routes for Emergency Response</div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <h2>Features</h2>
+        <div class="feature-container">
+            <div class="feature">
+                <i class="fas fa-bell"></i>
+                <h3>Instant Alerts</h3>
+                <p>Receive real-time notifications when emergency vehicles are nearby.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-map-marked-alt"></i>
+                <h3>Route Optimization</h3>
+                <p>Our system adjusts traffic signals to clear the path for emergency responders.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Enhanced Safety</h3>
+                <p>Improve road safety by informing drivers about approaching emergency vehicles.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about-us" class="about-us fade-element">
+        <h2>WHAT IS SMART ROUTE?</h2>
+        <p>Smart Route is dedicated to improving emergency response times by creating smarter, faster, and more efficient pathways for emergency vehicles in congested urban areas. Traffic delays often prevent ambulances, fire trucks, and police cars from reaching their destinations in time, leading to tragic consequences. Smart Route’s system uses real-time data, GPS tracking, and notifications to alert drivers and traffic lights about approaching emergency vehicles, helping clear the way and reducing delays.
+
+            Key features include emergency vehicle detection, real-time alerts to drivers and traffic systems, and integration with city traffic lights to create smoother routes. In addition to technology, Smart Route raises public awareness about the importance of giving way to emergency vehicles. By reducing response times, Smart Route aims to save lives, improve traffic management, and empower cities with smarter infrastructure.
+
+            The vision is to integrate Smart Route into cities worldwide, ensuring that no life is lost due to traffic delays in emergencies.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or feedback? Reach out to us!</p>
+        <form id="contact-form">
+            <label for="contact-email">Email:</label>
+            <input type="email" id="contact-email" name="contact-email" required>
+            
+            <label for="contact-message">Message:</label>
+            <textarea id="contact-message" name="contact-message" rows="5" required></textarea>
+            
+            <button type="submit">Send Message</button>
+            <p id="contact-error" role="alert" style="color: red; display: none;"></p>
+            <p id="contact-success" style="color: green; display: none;"></p>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-links">
+            <a href="#">Home</a>
+            <a href="#features">Features</a>
+            <a href="other/about.html">About Us</a>
+            <a href="#contact">Contact</a>
+            <a href="other/login.html">Login</a>
+            <a href="other/register.html">Register</a>
+        </div>
+        <div class="contact-info">
+            <p>Email: <a href="mailto:team@smartroute.com">team@smartroute.com</a></p>
+            <p>Phone: <a href="tel:+911234567890">+91-1234567890</a></p>
+            <p><a href="other/privacy.html">Privacy Policy</a></p>
+            <p><a href="other/terms.html">Terms and Conditions</a></p>
+        </div>
+        <div class="social-media">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="footer-bottom"></div>
+            <p>&copy; 2024 Trailblazers. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
