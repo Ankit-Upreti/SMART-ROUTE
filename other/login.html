@@ -18,10 +18,10 @@
         </div>
         <nav>
             <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./index.html#features">Features</a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../index.html#features">Features</a></li>
                 <li><a href="about.html">About Us</a></li>
-                <li><a href="./index.html#contact">Contact</a></li>
+                <li><a href="../index.html#contact">Contact</a></li>
                 <li><a href="login.html" class="auth-link active">Login</a></li>
                 <li><a href="register.html" class="auth-link">Register</a></li>
                 <li><a href="privacy.html">Privacy Policy</a></li>
@@ -47,13 +47,22 @@
         </form>
     </section>
 
+    <!-- Success Pop-Up -->
+    <div id="login-success-popup" class="popup hidden">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup()">&times;</span>
+            <p>Alert Sent to the Vehicles on the Route!</p>
+            <a href="index.html" class="popup-button">Go back to Homepage</a>
+        </div>
+    </div>
+
     <!-- Footer (Consistent with Main Page) -->
     <footer>
         <div class="footer-links">
-            <a href="./index.html">Home</a>
-            <a href="./index.html#features">Features</a>
+            <a href="../index.html">Home</a>
+            <a href="../index.html#features">Features</a>
             <a href="about.html">About Us</a>
-            <a href="./index.html#contact">Contact</a>
+            <a href="../index.html#contact">Contact</a>
             <a href="login.html">Login</a>
             <a href="register.html">Register</a>
         </div>
@@ -74,6 +83,6 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="login.js"></script>
 </body>
 </html>
